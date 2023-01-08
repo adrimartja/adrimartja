@@ -1,0 +1,127 @@
+@media(max-width: 1200px){
+    .container-about p{
+        padding: 0px 100px;
+    }
+
+    .img-content {
+        width: 25%;
+    }
+
+    .ul-navbar li a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1000px){
+    .container-about p{
+        padding: 0px 100px;
+    }
+
+    .img-content {
+        width: 25%;
+    }
+
+    .ul-navbar li a{
+        font-size: 15px;
+        padding: 0px 25px;
+    }
+
+    footer h1{
+        width:max-content;
+    }
+}
+
+@media(max-width:800px) {
+
+/* HEADER START */
+
+    .header-logo {
+        /* background-color: aqua; */
+        width: 1000px;
+    }
+
+    .header-logo h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        /* width: 1000px; */
+    }
+
+    .container-navbar {
+        display: none;
+    }
+
+    .menu-icon {
+        color: white;
+        font-size: 25px;
+        padding: 18px 20px;
+        display: block;
+      }
+
+/* NINJA KEN PORTOFOLIO START */
+    .container-top {
+        padding: 50px 0px;
+    }
+    .container-top h1 {
+        font-size: 45px;
+    }
+    .container-top h2 {
+        font-size: 22px;
+    }
+    .img-content {
+        width: 30%;
+    }
+
+/* NINJA KEN PORTOFOLIO END */
+
+/* ABOUT ME START */
+
+    .container-about{
+        padding: 50px 0px;
+    }
+    .heading {
+        font-size: 18px;
+    }
+
+    .container-about p {
+        width: 100%;
+        padding: 0px 50px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+/* ABOUT ME END */
+
+/* PORTO START  */
+
+    .project-item {
+        flex-direction: column;
+    }
+
+/* PORTO END */
+
+/* CONTACT FORM START  */
+
+    input, textarea {
+    width: 250px;
+}
+
+/* CONTACT FORM END  */
+
+/* FOOTER START  */
+
+    footer h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo h1 {
+        margin-top: 4px;
+    }
+
+    .ul-footer{
+    }
+
+    .ul-footer li{
+        font-size: 13px;
+}
+}
